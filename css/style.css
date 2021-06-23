@@ -12,6 +12,7 @@ body{
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
+    color: #303030;
 }
 
 ul{
@@ -73,7 +74,8 @@ ul{
   font-size: 18px;
   line-height: 25px;
   display: inline-block;
-  transform: translate(-57px, -17px);
+  transform: translateY(-17px);
+  margin-left: -57px;
 }
 .social{
   display: flex;
@@ -86,6 +88,7 @@ ul{
 .header__button{
   margin-top: 50px;
   margin-bottom: auto;
+  align-self: center;
 }
 .service{
   margin-bottom: 150px;
@@ -108,4 +111,79 @@ ul{
 }
 .service__img{
   object-fit: cover;
+}
+.info{
+  margin-bottom: 150px;
+}
+.info__inner{
+  display: flex;
+}
+.info__box{
+  flex-basis: 510px;
+  margin-right: 90px;
+}
+.info__content{
+  flex-basis: 600px;
+}
+.info__content-text{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 17px;
+}
+.info-tabs{
+  margin-bottom: 100px;
+}
+.info-tabs__items{
+  margin-bottom: 120px;
+}
+.info-tabs__item{
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 40px;
+}
+.info-tabs__items--active{
+   border-bottom: 1px solid #303030;
+}
+.info-tabs__content{
+  display: none;
+}
+.info-tabs__content--active{
+  display: block;
+}
+.info-slider{
+  max-width: 520px;
+}
+.info-slider__img{
+  margin-right: 40px;
+  float: left;
+}
+.info-slider__text{
+  padding-bottom: 15px;
+}
+.slick-arrow{
+  position: absolute;
+  left: 275px;
+  bottom: -3px;
+  z-index: 5;
+  cursor: pointer;
+}
+.slick-right{
+  left: 340px;
+}
+.info__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.info__list-item{
+  flex-basis: 235px;
+  margin-bottom: 17px;
+}
+.info__list-title{
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  
 }
