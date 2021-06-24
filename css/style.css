@@ -142,7 +142,7 @@ ul{
   line-height: 25px;
   margin-right: 40px;
 }
-.info-tabs__items--active{
+.info-tabs__item--active{
    border-bottom: 1px solid #303030;
 }
 .info-tabs__content{
@@ -184,6 +184,5 @@ ul{
   margin-bottom: 5px;
   font-size: 18px;
   line-height: 25px;
-  font-weight: 700;
-  
+  font-weight: 700;  
 }
