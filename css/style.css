@@ -211,6 +211,7 @@ ul{
 .clients-slider__box-img{
   flex-basis: 510px;
   margin-right: 90px;
+  padding-bottom: 32px;
 }
 .clients-slider__box-title{
   max-width: 478px;
