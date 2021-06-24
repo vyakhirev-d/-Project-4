@@ -238,7 +238,7 @@ ul{
 .step__inner{
   display: flex;
 }
-.sptep__img{
+.step__img{
   flex-basis: 600px;
   object-fit: cover;
 }
