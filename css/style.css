@@ -384,7 +384,7 @@ ul{
   .step__content{
     margin-right: 0;
   }
-  step__img{
+  .step__img{
     object-fit: cover;
     height: 400px;
     flex-basis: 100%;
